@@ -1,2 +1,2 @@
 # space-invaders
-This project is an experimental use of Class and Iterfaces keyword of typescript
+This project is an experimental use of Class and Interface keyword of typescript

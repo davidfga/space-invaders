@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board {
+    background-color: black;
+    width: 1100px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+.piece {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.piece img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.shoot {
+    margin-left: 100px;
+    width: 5px;
+    height: 100px;
+    background-color: red;
+}

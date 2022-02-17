@@ -1,0 +1,17 @@
+{
+  "name": "space-invaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "systemjs": "^0.19.41"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
